@@ -1,4 +1,7 @@
-#python code to average of two numbers
-a,b=map(int,input("enter a and b values:").split())
-avg=(a+b)/2
-print("The average of", a, "and", b,"is",avg)
+m,n=map(int,input("Enter m and n:").split())
+if(m>n):
+    print(m,"is the biggest number")
+elif(n>m):
+    print(n,"is the biggest number")
+else:
+    print(m,"and",n,"are equal")
