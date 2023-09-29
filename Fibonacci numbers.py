@@ -1,3 +1,4 @@
+#pyhtob code to n numbers fibonacci series
 n=int(input())
 f1,f2=0,1
 counter=0
