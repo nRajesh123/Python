@@ -1,0 +1,2 @@
+n=input('Enetr a string in capitl leetrs:')
+print(n.lower())
